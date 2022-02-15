@@ -6,6 +6,7 @@ app.get("/",(req,res) =>{
 });
 
 // localhost:8888/add?p1=10&p2=20
+
 app.get("/add",(req,res) =>{
     var p1 = req.param('p1');
     var p2 = req.param('p2');
